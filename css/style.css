@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+}
+
+/* GENERALE ********************************************* */
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.color-green{
+    color: #83b582;
+}
+
+
+/* NAVBAR ********************************************* */
+
+
+
+.navbar-img{
+    width: 50px;
+}
+
+.navbar-text{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #d6e4aa;
+}
+
+.navbar-toggler-button{
+    background-color: #d6e4aa;
+}
+
+.nav li{
+    display: block;
+    padding: 15px 10px;
+    list-style: none;
+}
+
+.nav li a{
+    color: white;
+    text-transform: capitalize;
+    font-size: 19px;
+    transition: 0.3s;
+}
+
+.nav li a:hover{
+    color: #d6e4aa;
+    transition: 0.3s;
+}
+
+.navbar-icon{
+    width: 50px;
+}
+
+.color-text{
+    color: #d6e4aa;
+    font-weight: bold;
+}
+
+
+/* jQuery Styles */
+.navbar-scroll {
+	background: #232231;
+	padding: 0;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+	transition-duration: 0.6s;
+}
+.nav-dropdown-scroll {
+	background: #e7eaea;
+	box-shadow: 0px 10px 9px rgba(0, 0, 0, 0.4);
+}
+
+
+
+/* SLIDE ********************************************* */
+
+
+#slide{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero_bg_1.jpg');
+    background-size: cover;
+}
+
+.slide-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center
+}
+
+.slide-content h2{
+    color: white;
+    margin-bottom: 45px;
+    text-transform: capitalize;
+}
+
+.slide-content a {
+    font-size: 22px;
+    color: #ffffff;
+    background-color: #83b582;
+    border-radius: 18px;
+    padding: 8px 25px;
+    transition: 0.8s;
+
+}
+
+.slide-content a:hover {
+	color: #83b582;
+    background-color:transparent;
+    border: 2px solid #83b582;
+    transition: 0.8s;
+}
+
+
+/* section one ********************************************* */
+
+
+#section-one{
+    min-height: 4000px;
+}
