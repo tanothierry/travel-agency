@@ -6,6 +6,7 @@
 
 body{
     font-size: 16px;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 /* GENERALE ********************************************* */
@@ -21,6 +22,25 @@ a:hover{
 
 .color-green{
     color: #83b582;
+}
+
+.button-search{
+    color: #ffffff;
+    background-color: #83b582;
+    border-radius: 30px;
+    padding: 8px 25px;
+    transition: 0.8s;
+    border:  none;
+    cursor: pointer;
+}
+
+.button-search:hover{
+    color: #83b582;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 8px 25px;
+    transition: 0.8s;
+    border: 2px solid #83b582;
 }
 
 
@@ -89,7 +109,7 @@ a:hover{
 
 
 #slide{
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero_bg_1.jpg');
     background-size: cover;
@@ -100,7 +120,7 @@ a:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    text-align: center
+    text-align: center;
 }
 
 .slide-content h2{
@@ -113,7 +133,7 @@ a:hover{
     font-size: 22px;
     color: #ffffff;
     background-color: #83b582;
-    border-radius: 18px;
+    border-radius: 30px;
     padding: 8px 25px;
     transition: 0.8s;
 
@@ -127,9 +147,75 @@ a:hover{
 }
 
 
-/* section one ********************************************* */
+/* SECTION-ONE ********************************************* */
 
 
 #section-one{
-    min-height: 4000px;
+    min-height: 450px;
 }
+
+.sectionOne-header{
+    padding: 60px 0px
+}
+
+.divider-green{
+    width: 200px;
+    height: 3px;
+    background-color: #83b582;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.sectionOne-header h3{
+    font-weight: bold;
+    color: #83b582;
+}
+
+.one-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #83b582;
+    margin: 0 auto 15px;
+    padding-top: 20px;
+}
+
+
+
+/* SECTION-TWO ********************************************* */
+
+
+
+#section-two{
+    /* min-height: 300px; */
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/hero_bg_1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sectionTwo{
+    padding: 40px;
+}
+.sectionTwo h3{
+    text-align: center;
+    color: white;
+    margin-bottom: 35px;
+    font-weight: bold;
+}
+
+.forms label{
+    color: #83b582;
+    font-style: italic;
+}
+
+.sectionTwo-form{
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+}
+
+.sectionTwo-form .option{
+    background-color: #83b582;
+}
+
