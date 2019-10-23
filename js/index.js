@@ -9,3 +9,10 @@ $(function(){
 		}
 	});
 });
+
+//Pour jquery: 
+//remplacer querySelector par $
+//ajouter doc rdy
+
+
+

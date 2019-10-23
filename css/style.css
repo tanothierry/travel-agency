@@ -219,3 +219,168 @@ a:hover{
     background-color: #83b582;
 }
 
+
+
+/* SECTION-TREE ********************************************* */
+
+
+#section-tree{
+    background-color: #232231;
+    min-height: 110px;
+}
+
+.sectionTree-icon{
+    color: #83b582;
+    font-weight: bold;
+}
+
+.sectionTree span{
+    font-size: 50px;
+    color: white;
+}
+
+.compteur1{
+    font-size: 18px;
+}
+
+/* SECTION-FOR ********************************************* */
+
+.section-for{
+    background-color: #dcdcdc;
+    min-height: 650px;
+}
+
+.section-for_title{
+    padding: 60px;
+}
+
+.section-for_title h4{
+    text-align: center;
+    color: #83b582;
+    font-weight: 600;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.cardFor{
+    min-height: 400px;
+    margin: 10px;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    transition: all 0.7s ease-out;
+}
+
+.cardFor:hover{
+    background-color: white;
+    transition: all 0.7s ease-out;
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.32);
+}
+
+.cardFor-block{
+    border: 2px solid #83b582;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.32);
+
+}
+
+.cardFor-header{
+    width: 150px;
+}
+
+.cardFor-header img{
+    padding-top: 15px;
+}
+
+.cardFor-body{
+    padding: 20px;
+}
+
+.cardFor-body h4{
+    font-size: 20px;
+    color: #83b582;
+    font-weight: bold;
+}
+
+.cardFor-body p{
+    font-size: 12px;
+    padding: 10px;
+}
+
+.cardFor-body a {
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #232231;
+    border-radius: 5px;
+    padding: 8px 25px;
+    transition: 0.8s;
+}
+
+/* SECTION-FIVE ********************************************* */
+
+.section-five{
+    min-height: 1000px;
+    margin: 50px 30px;
+}
+
+.section-five_title h3{
+    text-align: center;
+    color: #232231;
+    font-size: 40px;    
+}
+
+.sectionFive-img1{
+    background-image: url('../images/microsoft_PNG20.png');
+}
+
+.sectionFive-img2{
+    background-image: url('../images/474px-Orange_logo.svg.png');
+}
+
+.sectionFive-img3{
+    background-image: url('../images/8f255254daf3e88c3555e638_rw_600.jpg');
+}
+
+.sectionFive-img4{
+    background-image: url('../images/microsoft_PNG20.png');
+}
+
+.sectionFive-img5{
+    background-image: url('../images/8f255254daf3e88c3555e638_rw_600.jpg');
+}
+
+.sectionFive-img6{
+    background-image: url('../images/474px-Orange_logo.svg.png');
+}
+
+.sectionFive-img1,
+.sectionFive-img2,
+.sectionFive-img3,
+.sectionFive-img4,
+.sectionFive-img5,
+.sectionFive-img6{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px auto;
+    height: 60px;
+    transition: all 0.4s ease-out;
+    justify-content: center;
+}
+
+.sectionFive-img1:hover,
+.sectionFive-img2:hover,
+.sectionFive-img3:hover,
+.sectionFive-img4:hover,
+.sectionFive-img5:hover,
+.sectionFive-img6:hover{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+
+
+
+
+
