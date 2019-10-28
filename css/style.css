@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@ body{
     font-size: 16px;
     font-family: Verdana, Tahoma, sans-serif;
     overflow-x: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 html{
@@ -74,6 +77,10 @@ a:hover{
 /* NAVBAR ********************************************* */
 
 
+#header .navbar{
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 .navbar-text{
     font-size: 24px;
@@ -246,19 +253,33 @@ a:hover{
 /* SECTION-TREE ********************************************* */
 
 
+.section-tree_main{
+    padding: 20px;
+}
 
 #section-tree{
     background-color: #232231;
     min-height: 110px;
 }
 
-.sectionTree-icon{
+.sectionTree-icon {
     color: #83b582;
     font-weight: bold;
+    margin-bottom: 0;
 }
 
+.sectionTree-icon_car{
+    font-size: 30px;
+}
+
+.sectionTree-p{
+    color:white;
+    font-style: italic;
+}
+
+
 .sectionTree span{
-    font-size: 50px;
+    font-size: 45px;
     color: white;
 }
 
@@ -465,6 +486,158 @@ a:hover{
     transition: all 0.5s;
 }
 
+/* SLIDE-IMAGE 2 ******************************************* */
+
+
+
+.carousel-img img{
+    height: 60vh;
+    min-width: 100%;
+}
+
+.carousel-tilte{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+}
+
+.carousel-tilte h4{
+    font-size: 35px;
+}
+
+.carousel-img1{
+    background: linear-gradient(#23223144,#23223144), url('../images/volkswagen-569315_1920.jpg');
+}
+
+.carousel-img2{
+    background: linear-gradient(#23223144,#23223144), url('../images/plane-841441_1920.jpg');
+}
+.carousel-img3{
+    background: linear-gradient(#23223179,#23223179), url('../images/airport-2373727_1920.jpg');
+}
+
+.carousel-img1,
+.carousel-img2,
+.carousel-img3
+{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(90%);
+}
+
+.carousel-care{
+    background-color: #83b582;
+    color: #83b582;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    transition: all 0.5s;
+}
+
+.carousel-pre{
+    transition: all 0.5s;
+}
+
+
+/* MAIN-CONTENT ******************************************* */
+
+
+.main-content{
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    min-height: 800px;
+    background-color: #edebf0;
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1000;
+}
+
+.about{
+    padding: 50px;
+}
+
+.mainContent_aboutTitle{
+    padding: 30px;
+}
+
+.mainContent_aboutTitle h2{
+    color: #83b582;
+    font-weight: bold;
+}
+
+.mainContent_aboutBody p{
+    text-align: justify;
+}
+
+.button-green{
+    background-color: #83b582;
+    padding: 11px 16px;
+    color: white;
+    border: none;
+    transition: all 0.5s;
+}
+
+.button-green:hover{
+    background-color: #232231;
+    padding: 11px 16px;
+    color: white;
+    border: none;
+    transition: all 0.5s;
+}
+
+.about-image{
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/tourism-4438308_1920.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* OUR-TEAM ******************************************* */
+
+
+.ourteam{
+    margin: 50px;
+}
+
+.ourteam-title h5{
+    text-align: center;
+    color: #232231;
+    font-size: 23px;
+}
+
+.ourteam-title::after{
+    content: '';
+    position: absolute;
+    background-color: #83b582;
+    width: 8%;
+    height: 4px;
+    border-radius: 15%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.ourteam-card{
+    border: 1px solid #232231;
+    border-radius: 0px;
+    margin: 10px;
+}
+
+.card-image{
+    background-color: #83b582;
+    padding: 10px;
+}
+
+.card-image h6{
+    font-weight: bold;
+}
 
 
 /* FOOTER ********************************************* */
@@ -598,6 +771,12 @@ a:hover{
         width: 25px;
     }
 
+    .mainContent_aboutTitle h2{
+        color: #83b582;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
     .navbar-text{
         font-size: 15px;
     }
@@ -616,6 +795,10 @@ a:hover{
 
     .sectionSix-form_bock .mb-30{
         min-width: 60px;
+    }
+
+    .about1{
+        display: none;
     }
 
     .footer-part4{
