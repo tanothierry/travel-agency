@@ -238,7 +238,7 @@ a:hover{
 }
 
 .sectionTwo-form{
-    width: 80%;
+    width: 90%;
     border-radius: 5px;
     border: none;
     padding: 7px;
@@ -438,7 +438,7 @@ a:hover{
 
 
 .section-six{
-    min-height: 300px;
+    min-height: 120px;
     background-color: #83b582;
     position: relative;
 }
@@ -446,8 +446,8 @@ a:hover{
 .section-six_mainContent{
     position: absolute;
     left: 50%;
-    top: 40%;
-    transform: translate(-50%,-40%)
+    top: 10%;
+    transform: translate(-50%,-10%)
 }
 
 .section-six_title h4{
@@ -459,7 +459,7 @@ a:hover{
 
 .sectionSix-form_input{
     width: 80%;
-    height: 50px;
+    height: 40px;
     padding-left: 20px;
 }
 
@@ -469,7 +469,7 @@ a:hover{
 }
 
 .button-submit{
-    height: 50px;
+    height: 40px;
     width: 80%;
     background-color: #232231;
     color: white;
@@ -478,7 +478,7 @@ a:hover{
 }
 
 .button-submit:hover{
-    height: 50px;
+    height: 40px;
     min-width: 80%;
     background-color: #232231da;
     color: white;
@@ -645,13 +645,21 @@ a:hover{
 
 
 .footer{
-    min-height: 300px;
-    
+    min-height: 200px;
+    background-color: #232231;
 }
 
 .footer-content{
     padding: 40px;
-    background-color: #232231;
+}
+
+.footer-col{
+    padding: 0;
+    min-width: 250px;
+}
+
+.footer-block{
+    margin: auto;
 }
 
 .footer-part1_img .navbar-img{
@@ -665,6 +673,7 @@ a:hover{
 .footer-part1 p{
     color: rgb(216, 212, 212);
     font-style: italic; 
+    text-align: justify;
 }
 
 .footer-part1 p:hover{
@@ -714,7 +723,7 @@ a:hover{
 
 .footer-copy{
     background-color: white;
-    padding: 30px;
+    padding: 15px;
 }
 
 
@@ -730,11 +739,9 @@ a:hover{
     .section-five_title h3{
         font-size: 23px;
     }
+}
 
-    .navbar-contact{
-        display: none;
-    }
-    
+@media screen and (max-width:990px){
     .nav{
         background-color: #232231;
     }
@@ -746,26 +753,13 @@ a:hover{
     .navbar-scroll {
         padding: 20px;
     }
+    
+    .navbar-contact{
+        display: none;
+    }
 }
 
-@media screen and (max-width:768px){
-
-    .button-submit{
-        min-width: 60px;
-    }
-    
-    .button-submit:hover{
-        min-width: 50%;
-    }
-
-    .sectionSix-form_button{
-        padding: 0px;
-    }
-
-    
-}
-
-@media screen and (max-width:576px){
+@media screen and (max-width:400px){
 
     .navbar-img{
         width: 25px;
@@ -789,9 +783,6 @@ a:hover{
         min-width: 50%;
     }
 
-    .sectionSix-form_button{
-        padding: 0px;
-    }
 
     .sectionSix-form_bock .mb-30{
         min-width: 60px;
@@ -809,9 +800,48 @@ a:hover{
         display: none;
     }
 
+    .sectionTree-card{
+        max-width: 150px;
+        margin: 8px;
+    }
+
     .sectionFive{
         max-width: 100px;
     }
+
+    .sectionSix-form_bock{
+        display: flex;
+    }
+
+    .forms_input{
+        max-width: 210px;
+        height: 40px;
+    }
+
+    .forms-button{
+        max-width: 100px;
+        height: 40px;
+        background-color: #232231;
+    }
+
+    .sectionSix-form_input{
+        width: 100%;
+    }
+    
+
+    .button-submit{
+        height: 40px;
+        max-width: 100px;
+    }
+    
+    .button-submit:hover{
+        max-width: 60px;
+        background-color: transparent;
+        color: white;
+        border: none;
+        transition: all 0.5s;
+    }
+
 }
 
 
